@@ -1,0 +1,12 @@
+#Context,             LogicalName,          DataType, ObjectName
+
+#pwcHomePage
+BunningsHomePage, searchBox, xpath,  "//*[@id='headerMainMenu']/div[2]/div/div[1]/div/div/input[1]"
+BunningsHomePage, searchButton, css,  "button.search-container_btn-submit"
+BunningsHomePage, searchResultPage,    css,  "div.bui-page-container > h1"
+BunningsHomePage, ourRangeTab,         css,  "ul.responsive-search-tabs_list > li:first-child"
+BunningsHomePage, searchResults,       css,  "div.responsive-search-results > div"
+BunningsHomePage, adviceTab,       css,  "ul.responsive-search-tabs_list > li:nth-child(2)"
+BunningsHomePage, otherTab,       css,  "ul.responsive-search-tabs_list > li:nth-child(4)"
+
+

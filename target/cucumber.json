@@ -1,0 +1,342 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8284731800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BunningsStepDefinitions.setup_firefox()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "verify user is able to search an available service and make sure that results are returned properly",
+        "description": "",
+        "id": "verify-newly-rolled-out-search-and-results-features-on-bunnings-website;verify-user-is-able-to-search-an-available-service-and-make-sure-that-results-are-returned-properly",
+        "after": [
+          {
+            "result": {
+              "duration": 3129064499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BunningsStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14329695200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigate to the Bunning website",
+            "match": {
+              "location": "BunningsStepDefinitions.user_navigates_to_Bunning_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1357406900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the text \"TV Antenna Installation\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TV Antenna Installation",
+                  "offset": 21
+                }
+              ],
+              "location": "BunningsStepDefinitions.homePageHeading(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3191769600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User submit the search",
+            "match": {
+              "location": "BunningsStepDefinitions.user_clicks_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394273900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User taken to the search results page",
+            "match": {
+              "location": "BunningsStepDefinitions.searchResultsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101406000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify other tab is active",
+            "match": {
+              "location": "BunningsStepDefinitions.ourotherTab_active()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353157201,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the service results are correct as per the search",
+            "match": {
+              "location": "BunningsStepDefinitions.serviceSearch_Results()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5506153000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BunningsStepDefinitions.setup_firefox()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify user is able to search an available product results and make sure that results are returned properly",
+        "description": "",
+        "id": "verify-newly-rolled-out-search-and-results-features-on-bunnings-website;verify-user-is-able-to-search-an-available-product-results-and-make-sure-that-results-are-returned-properly",
+        "after": [
+          {
+            "result": {
+              "duration": 2315390100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BunningsStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12495804100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigate to the Bunning website",
+            "match": {
+              "location": "BunningsStepDefinitions.user_navigates_to_Bunning_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1492516699,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the text \"tv antennas\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tv antennas",
+                  "offset": 21
+                }
+              ],
+              "location": "BunningsStepDefinitions.homePageHeading(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4167321900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User submit the search",
+            "match": {
+              "location": "BunningsStepDefinitions.user_clicks_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808897700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User taken to the search results page",
+            "match": {
+              "location": "BunningsStepDefinitions.searchResultsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100766000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify our range tab is active",
+            "match": {
+              "location": "BunningsStepDefinitions.ourRangeTab_active()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265258900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify the product results are correct as per the search",
+            "match": {
+              "location": "BunningsStepDefinitions.Search_Results()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5101605700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BunningsStepDefinitions.setup_firefox()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "verify user is able to search an available DIY Advice results and make sure that results are returned properly",
+        "description": "",
+        "id": "verify-newly-rolled-out-search-and-results-features-on-bunnings-website;verify-user-is-able-to-search-an-available-diy-advice-results-and-make-sure-that-results-are-returned-properly",
+        "after": [
+          {
+            "result": {
+              "duration": 2571427600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BunningsStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16305272401,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User navigate to the Bunning website",
+            "match": {
+              "location": "BunningsStepDefinitions.user_navigates_to_Bunning_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 690199400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter the text \"garden diaries\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "garden diaries",
+                  "offset": 21
+                }
+              ],
+              "location": "BunningsStepDefinitions.homePageHeading(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2966939100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User submit the search",
+            "match": {
+              "location": "BunningsStepDefinitions.user_clicks_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276113100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User taken to the search results page",
+            "match": {
+              "location": "BunningsStepDefinitions.searchResultsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74109800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify D.I.Y. Advice tab is active",
+            "match": {
+              "location": "BunningsStepDefinitions.ourDIYAdviceTab_active()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454647899,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the DIY Advice results are correct as per the search",
+            "match": {
+              "location": "BunningsStepDefinitions.DIY_AdviceSearch_Results()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Newly rolled out search and results features on Bunnings Website",
+    "description": "",
+    "id": "verify-newly-rolled-out-search-and-results-features-on-bunnings-website",
+    "keyword": "Feature",
+    "uri": "bunnings.feature"
+  }
+]
